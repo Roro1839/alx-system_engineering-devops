@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #while lop to print out bad luck , good luck and others
 #bash loop that loop from 1-10
 i=1 
