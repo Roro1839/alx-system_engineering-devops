@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+# Add a custom host entry for localhost
+echo "127.0.0.2 localhost" >> /etc/hosts
+
+# Add a custom host entry for facebook.com
+echo "8.8.8.8 facebook.com" >> /etc/hosts
+
+# Restart the networking service to apply changes
+systemctl restart networking
