@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-
 #intro tu enter web server
+
 ssh ubuntu@52.91.116.244 -i ~/.ssh/school
