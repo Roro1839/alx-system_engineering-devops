@@ -1,5 +1,6 @@
 import requests
 
+
 def number_of_subscribers(subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {"User-Agent": "MyBot"}  # Set a custom User-Agent header
@@ -11,4 +12,3 @@ def number_of_subscribers(subreddit):
         return subscribers
     except (requests.exceptions.RequestException, KeyError):
         return 0
-
